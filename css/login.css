@@ -1,0 +1,159 @@
+@charset "ISO-8859-1";
+
+body {
+    /* background: #E0EAFC;
+    background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);
+    background: linear-gradient(to right, #CFDEF3, #E0EAFC); */
+
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    grid-template-columns: 1.5fr 2fr;
+    /* background-color: skyblue; */
+    background: transparent;
+    width: 450px;
+    height: 550px;
+    margin-left: 35%;
+    margin-top: 4%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.box-1 {
+    /* background-color: #ffe259; */
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* Add relative positioning to .box-1 */
+}
+
+.box-2 {
+    /* margin-left: 250px; */
+    background: transparent;
+    padding: 20px;
+    /* Adjust padding as needed */
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-holder {
+    position: relative;
+
+
+}
+
+.content-holder img {
+    width: 120%;
+    height: 650px;
+    /* margin-bottom: 140px; */
+    margin-right: 100px;
+}
+
+.content-holder h1 {
+    color: navy;
+    font-size: 28px;
+    font-weight: bold;
+    width: 100%;
+    font-family: gill sans, sans-serif;
+
+}
+
+select,
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 3px 0;
+    box-sizing: none;
+    border: none;
+    background: transparent;
+    color: #fff;
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+    /* Add this line to create a thin line under the input fields */
+}
+
+input:focus {
+    border-bottom: 2px solid grey;
+    /* Change the color and thickness when the input is focused */
+}
+
+input:focus,
+select:focus {
+    border-bottom: 2px solid grey;
+    /* Adjust color as needed */
+    outline: none;
+}
+
+.role-buttons {
+    margin-bottom: 25px;
+}
+
+.role-buttons button,
+.role-buttons a {
+    width: 100px;
+    /* Adjust the width as needed */
+    margin: 5px;
+    padding: 8px;
+    border-radius: 15px;
+    /* background-color: skyblue; */
+    /* background: transparent; */
+}
+
+.login-button {
+    background: linear-gradient(to right, #24C6DC, #514A9D);
+    /* New color */
+    color: #fff;
+    margin-top: 25px;
+    padding: 10px;
+    /* Adjusted padding */
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 150px;
+    font-size: 16px;
+    margin-left: 30%;
+}
+
+.login-button:hover {
+    background: linear-gradient(to left, #24C6DC, #514A9D);
+    /* New hover color */
+}
+
+.btn.btn-secondary {
+    /* background: skyblue; Replace with the color you want */
+    background: transparent;
+    color: #fff;
+    /* Set text color to white or a color that contrasts well */
+}
+
+
+.btn.btn-secondary:hover {
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    /* Replace with the hover color you want */
+}
+
+p {
+    margin-top: 12px;
+    font-size: 14px;
+    text-align: center;
+    /* color: #aaf136; */
+}
+
+a {
+    font-family: 'Helvetica', sans-serif;
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
